@@ -380,3 +380,9 @@ footer p {
     font-size: 1rem;
   }
 }
+
+@media (min-width: 390px) {
+  .header__content h1{
+    font-size: 50px;
+  }
+}
