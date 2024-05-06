@@ -385,14 +385,12 @@ footer p {
   .header__content h1{
     font-size: 50px;
   }
+
+  
+
 }
 
-.calendar {
-  max-width: 400px;
-  margin: 30px auto;
-  border: 1px solid #ccc;
-  padding: 20px;
-}
+
 
 .month {
   display: flex;
@@ -401,6 +399,27 @@ footer p {
   align-items: center;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.calendar {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+
+
+.day-labels {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+
+.day-label {
+  padding: 5px;
+  
 }
 
 .days {
@@ -412,12 +431,16 @@ footer p {
 .day {
   text-align: center;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 0.5px snow #ddd;
 }
 
 .unavailable {
   background-color: #ffcccc; /* Light red background */
   border-radius: 50%; /* Circle shape */
+}
+
+.wrapper {
+  margin-bottom: 20px;
 }
 
 .calendar button{
